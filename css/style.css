@@ -5,11 +5,13 @@
     box-sizing: border-box;
 }
 
+font-family: 'Montserrat', sans-serif;
+
 .nav-top {
     height: 80px;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
-    z-index: 1;
+    z-index: 5;
     top: 0;
     width: 100%;
 }
@@ -21,11 +23,21 @@
     /* position: relative; */
 }
 
+a {
+    text-decoration: none;
+}
+
 aside {
     background-color: black;
     /* height: calc(100vh - 80px); */
     width: 300px;
     /* flex-direction: column; */
+}
+
+.top-aside {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column; 
 }
 
 .nav-bottom {
@@ -48,33 +60,63 @@ aside {
     margin-left: 20px;
     margin-top: 20px;
     color: #535353;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+
 }
 
 .logo {
     width: 170px;
+    margin-bottom: 10px;
 }
 
 .home {
     width: 40px;
+    margin-bottom: 10px;
 }
 
 .search {
     width: 40px;
+    margin-bottom: 10px;
 }
 
 .library {
     width: 40px;
+    margin-bottom: 10px;
 }
 
 .playlist {
-    height: 100%;
+    overflow-y: auto;
+    height: 300px;
 }
 
+.playlist > h3 {
+    color:white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
+.playlist a {
+    margin-bottom: 10px;
+    color: #535355;
+}
+
+.home, .search, .library {
+    display: inline-block;
+    vertical-align: middle;
+}
 
 .home-text, .search-text, .library-text {
     display: inline-block;
-    color: #535353
+    color: #535353;
+    vertical-align: middle;
+    
+}
+
+ul li {
+    margin-bottom: 10px;
 }
 
 .account-icon {
@@ -82,4 +124,11 @@ aside {
 }
 .account-icon, .account-text {
     display: inline-block;
+    margin-bottom: 40px;
+}
+
+
+.account {
+    border-top: 1px solid #535355;
+    margin-top: 30px;
 }
