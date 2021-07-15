@@ -18,14 +18,14 @@
     display: flex;
     height: calc(100vh - 80px);
     background-color: #141922;
-    position: relative;
+    /* position: relative; */
 }
 
 aside {
     background-color: black;
-    height: calc(100vh - 80px);
+    /* height: calc(100vh - 80px); */
     width: 300px;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .nav-bottom {
@@ -39,11 +39,47 @@ aside {
 
 }
 
-p {
-    color: wheat;
-}
-
 .main-content {
     overflow-y: auto;
     width: calc(100% - 300px);
+}
+
+.aside-content {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #535353;
+}
+
+.logo {
+    width: 170px;
+}
+
+.home {
+    width: 40px;
+}
+
+.search {
+    width: 40px;
+}
+
+.library {
+    width: 40px;
+}
+
+.playlist {
+    height: 100%;
+}
+
+
+
+.home-text, .search-text, .library-text {
+    display: inline-block;
+    color: #535353
+}
+
+.account-icon {
+    width: 40px;
+}
+.account-icon, .account-text {
+    display: inline-block;
 }
