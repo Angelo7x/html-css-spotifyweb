@@ -19,14 +19,12 @@
     height: calc(100vh - 80px);
     background-color: #141922;
     position: relative;
-    width: 100%
 }
 
 aside {
     background-color: black;
     height: calc(100vh - 80px);
     width: 300px;
-    overflow: hidden;
     flex-direction: column;
 }
 
@@ -47,4 +45,5 @@ p {
 
 .main-content {
     overflow-y: auto;
+    width: calc(100% - 300px);
 }
