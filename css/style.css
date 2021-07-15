@@ -40,6 +40,24 @@ aside {
     flex-direction: column; 
 }
 
+.crea-play {
+    margin-bottom: 10px;
+}
+
+.crea-play a {
+    font-size: 19px;
+}
+.square {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: #a3a3a3;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    line-height: 30px;
+}
+
 .nav-bottom {
     height: 80px;
     background-color: #282828;
@@ -131,4 +149,8 @@ ul li {
 .account {
     border-top: 1px solid #535355;
     margin-top: 30px;
+}
+
+.installation {
+    color: #535355;
 }
