@@ -8,12 +8,13 @@
 font-family: 'Montserrat', sans-serif;
 
 .nav-top {
-    height: 80px;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
+    height: 50px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* position: fixed;
     z-index: 5;
-    top: 0;
+    top: 0; */
     width: 100%;
+    background-color: red;
 }
 
 .container-main {
