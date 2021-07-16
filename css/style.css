@@ -168,8 +168,8 @@ ul li {
 
 .button-top {
     border: 1px solid white;
-    padding: 10px 30px;
-    border-radius: 20px;
+    padding: 10px 50px;
+    border-radius: 40px;
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     justify-content: flex-end;
@@ -217,13 +217,27 @@ ul li {
     display: flex;
 }
 
-.img-rec {
+.album {
     width: calc(100% / 6);
     padding: 5px;
 }
 
 .album-container > h3 {
     color:white
+}
+
+.img-rec, .album-text {
+    text-align: center;
+    color: white;
+}
+
+.album-text{
+    margin-top: 10px;
+}
+
+.album-subtitle {
+    color: #707377;
+    margin-top: 10px;
 }
 
 .img-rec img {
