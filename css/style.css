@@ -5,7 +5,10 @@
     box-sizing: border-box;
 }
 
-/* font-family: 'Montserrat', sans-serif; */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 .nav-top {
     height: 70px;
@@ -185,14 +188,22 @@ ul li {
 }
 
 .link-content button {
-    border:none;
+    border: none;
     background-color: #141922;
     color: #535355;
     padding: 10px 15px;
+    border-bottom: 2px solid transparent;
+}
+
+.link-content>button:first-child::after {
+    display: block;
+    width: 40px;
+    height: 2px solid yellowgreen;
 }
 
 .link-content button:hover{
     border-bottom: 2px solid #adff2f;
+    color: white;
 }
 
 .home-text:hover, .search-text:hover, .library-text:hover {
@@ -205,13 +216,13 @@ ul li {
     margin: auto;
 }
 
-.recently-played {
+.album {
     display: flex;
 }
 
 .img-rec {
     width: calc(100% / 6);
-    margin-right: 10px;
+    padding: 5px;
 }
 
 .album-container > h3 {
@@ -219,5 +230,5 @@ ul li {
 }
 
 .img-rec img {
-    width: 180px;
+    width: 100%;
 }
